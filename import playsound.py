@@ -10,7 +10,7 @@ sound3 = pygame.mixer.Sound("실로폰.wav")
 def effect(a):
     if a == 1:
         sound1.play()
-        time.sleep(2)
+        time.sleep(1.5)
         sound1.stop()
     elif a == 2:
         sound2.play()
