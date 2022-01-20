@@ -5,8 +5,8 @@ pygame.init()
 
 sound1 = pygame.mixer.Sound('찬미하라.mp3')
 sound1.set_volume(0.1)
-# sound1.play()
-# https://www.youtube.com/watch?v=omCbuCmXXaU&t=8s
+# sound1.play(-1)
+# https://www.youtube.com/watch?v=omCbuCmXXaU&t
 
 sound2 = pygame.mixer.Sound('8비트 게임 배경음악.mp3')
 sound2.set_volume(0.1)
